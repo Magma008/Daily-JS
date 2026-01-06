@@ -39,6 +39,4 @@ const arrSort = (array1, array2) => {
     return returnArr.sort();
 };
 
-arrSort(["strong", "arp", "xyz"], ["lively", "alive", "harp", "sharp", "armstrong"])
-
-
+arrSort(["strong", "arp", "ar"], ["lively", "alive", "harp", "sharp", "armstrong"]);
