@@ -20,16 +20,21 @@
 // ? "hello" => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 // ? " s p a c e s " => [" S p a c e s ", " s P a c e s ", " s p A c e s ", " s p a C e s ", " s p a c E s ", " s p a c e S "]
 
-let word = "hello"
-let wordArr = word.split("")
-let arr = [];
+// let word = "hello"
+// let wordArr = word.split("")
+// let arr = [];
 
-for (let i = 0; i < wordArr.length; i++) {
-    arr.push(word)
-    arr.push(wordArr[i] = wordArr[i].toUpperCase());
-    console.log(`${word.slice(0, i - 1).toUpperCase()} ${word[i].toUpperCase()}`);
+// for (let i = 0; i < wordArr.length; i++) {
+//     arr.push(word)
+//     arr.push(wordArr[i] = wordArr[i].toUpperCase());
+//     console.log(`${word.slice(0, i - 1).toUpperCase()} ${word[i].toUpperCase()}`);
     
 
-}
+// }
 
-console.log(arr);
+// console.log(arr);
+
+// let arr = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+
+// console.log(arr)
+// console.log(arr.sort((x, y) => x % 2 == 0 ? x : x - y));
