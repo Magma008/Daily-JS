@@ -25,8 +25,9 @@ let wordArr = word.split("")
 let arr = [];
 
 for (let i = 0; i < wordArr.length; i++) {
-    // arr.push(word)
+    arr.push(word)
     arr.push(wordArr[i] = wordArr[i].toUpperCase());
+    console.log(`${word.slice(0, i - 1).toUpperCase()} ${word[i].toUpperCase()}`);
     
 
 }
