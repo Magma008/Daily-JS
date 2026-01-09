@@ -30,11 +30,24 @@
 //     console.log(`${word.slice(0, i - 1).toUpperCase()} ${word[i].toUpperCase()}`);
     
 
+// let arr = [[1, 2, 3, 4, 5, 6],
+// [20, 21, 22, 23, 24, 7],
+// [19, 32, 33, 34, 25, 8], 
+// [18, 31, 36, 35, 26, 9], 
+// [17, 30, 29, 28, 27, 10], 
+// [16, 15, 14, 13, 12, 11]]
+
+// console.log(arr[0]  );
+
+// for (let i = 1; i < arr.length - 1; i++) {
+//     console.log(arr[i][arr[i].length - 1]);    
+//     console.log(arr[i][0]);   
+//     console.log(arr[i][arr[i].length - 2]);
+
+
 // }
 
-// console.log(arr);
+// console.log(arr[arr.length - 1].reverse());
 
-// let arr = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+// console.log(arr[1].slice(1, arr[1].length - 1));
 
-// console.log(arr)
-// console.log(arr.sort((x, y) => x % 2 == 0 ? x : x - y));
