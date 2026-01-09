@@ -18,6 +18,3 @@ const sortStr = (array) => {
 };
 
 sortStr(["", "Moderately", "Brains", "Pizza", "Clash"]);
-
-
-
