@@ -50,17 +50,3 @@
 // console.log(arr[arr.length - 1].reverse());
 
 // console.log(arr[1].slice(1, arr[1].length - 1));
-
-
-let son1 = -10
-let son2 = -3
-
-let arr = []
-
-
-for (let i = son1; i <= son2; i++) {
-    !String(i).includes("5") ? arr.push(i) : i   
-}
-
-console.log(arr);
-console.log(arr.length);
