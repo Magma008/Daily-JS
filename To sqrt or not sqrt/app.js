@@ -16,13 +16,8 @@
 
 // ! [4,3,9,7,2,1] -> [2,9,3,49,4,1]
 
-let arr = [4,3,9,7,2,1];
+const sqrtDecider = (nums) => {
+    return nums.map( (num) => num = ( Number.isInteger(Math.sqrt(num)) ? Math.sqrt(num) : Math.pow(num, 2) ) )
+};
 
-// let arr1 = ( arr.map((item) => item = Number.isInteger(Math.sqrt(item))) ? Math.sqrt(item) : Math.pow(item, 2) );
-// console.log(Number.isInteger(Math.sqrt(arr[0])));
-
-let arr2 = arr.map( (num) => num = ( Number.isInteger(Math.sqrt(num)) ? Math.sqrt(num) : Math.pow(num, 2) ) )
-
-console.log(arr2);
-
-const sqrtDecider = (nums) => 
+sqrtDecider([1, 3, 5, 2, 8, 16, 9])
