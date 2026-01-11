@@ -14,7 +14,10 @@
 // !  ["a", "a", "b", "c"]   ["a", "a", "b", "c"]  →     16
 // !  ["b", "c", "b", "a"]   ["" , "a", "a", "c"]  →     0
 
-let corr = ["a", "a", "b", "b"]   
-let stu = ["a", "c", "b", "d"]
-let count =
+const checker = (correct, student) => {
+    let count = 0;
+    student.forEach((answer, index) => answer === correct[index] ? count += 4 : answer === "" ? count : count -= 1);
+    return (count < 0 ? 0 : count)
+};
 
+checker(["a", "a", "c", "b"], ["a", "a", "b", "" ]);
