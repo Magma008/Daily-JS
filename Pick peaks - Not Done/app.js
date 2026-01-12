@@ -20,3 +20,27 @@
 // })
 
 // console.log(mpty);
+
+
+
+let code = "012345";
+let times = 1;
+let newone = code.split("");
+let coded = []
+
+for (let i = 0; i < times; i++) {
+    // console.log(i);
+        (times > 1 ? coded : newone).forEach((item, index) => {
+            if (index % 2 !== 0) {
+                coded.push(item)
+            }
+        })
+        (times > 1 ? coded : newone).forEach((item, index) => {
+            if (index % 2 == 0) {
+                coded.push(item)
+            }
+        })
+
+}
+
+console.log(coded.join("").slice(-newone.length));
