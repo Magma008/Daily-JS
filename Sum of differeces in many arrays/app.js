@@ -21,10 +21,3 @@ const arraySum = (array) => {
 };
 
 arraySum([1, 4, 19, 8, 13]);
-
-
-
-
-
-
-
