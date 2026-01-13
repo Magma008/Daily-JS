@@ -22,10 +22,3 @@ const fizzbuzz = (number) => {
 };
 
 fizzbuzz(9);
-
-
-
-
-
-
-
