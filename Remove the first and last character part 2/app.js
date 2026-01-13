@@ -24,9 +24,3 @@ const trimmer = (numbers) => {
 };
 
 trimmer("1, 3, 4, 5, 19");
-
-
-
-
-
-
