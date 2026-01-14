@@ -21,9 +21,3 @@ const rowWght = (array) => {
 }
 
 rowWght([50, 60, 70, 80]);
-
-
-
-
-
-
