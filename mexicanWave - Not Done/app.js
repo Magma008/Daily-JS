@@ -52,14 +52,7 @@
 // console.log(arr[1].slice(1, arr[1].length - 1));
 
 
-let arr = [2, 1, 10];
-console.log(arr.sort((x, y) => y - x));
-let newARr = []
+let arr = [22, -6, 32, 82, 9, 25];
+let gg = arr.filter((item, i) => item % i === 0)
 
-arr.forEach((item, index) => {
-    !Number.isNaN(item - arr[index + 1]) ? newARr.push(item - arr[index + 1]) : item
-})
-
-console.log(newARr);
-
-// console.log(newarr.reduce((acc, val) => acc + val, 0));
+console.log(gg);
