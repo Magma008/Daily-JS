@@ -44,3 +44,51 @@
 // }
 
 // console.log(coded.join("").slice(-newone.length));
+
+
+let array = [[2, 1, 1],
+             [1, 2, 2],
+             [2, 1, 1]];
+
+// arr.forEach((item, index) => {
+//     // console.log(item[0] == item[1] && item[1] == item[2] ? item[0] : "Defeat")   
+//     // console.log(arr[index])
+//     console.log(array[index][index]);
+    
+    
+// })
+
+// console.log(arr[2][0] == arr[1][1] && arr[1][1] == arr[0][2]);
+
+
+// console.log(arr[0][0] == arr[1][0] && arr[1][0] == arr[2][0])
+// console.log(arr[0][1] == arr[1][1] && arr[1][1] == arr[2][1])
+// console.log(arr[0][2] == arr[1][2] && arr[1][2] == arr[2][2])
+
+
+
+
+
+// const tictoe = (arr) => {
+//     let returned = 0;
+//     arr.forEach((item, index) => {
+//         if (item.includes(0)) {
+//             returned = -1
+//         } else {
+//             (item[0] == item[1] && item[1] == item[2]) ? returned = item[1] : 0
+//         }
+
+        
+
+//     })
+//     arr[0][0] == arr[1][0] && arr[1][0] == arr[2][0] ? returned = arr[1][0] : 0
+//     arr[0][1] == arr[1][1] && arr[1][1] == arr[2][1] ? returned = arr[1][1] : 0
+//     arr[0][2] == arr[1][2] && arr[1][2] == arr[2][2] ? returned = arr[1][2] : 0
+//     arr[0][2] == arr[1][1] && arr[1][1] == arr[2][0] ? returned = arr[1][1] : 0
+//     arr[0][0] == arr[1][1] && arr[1][1] == arr[2][2] ? returned = arr[1][1] : 0
+
+//     console.log(returned);
+    
+// }
+
+// tictoe(array)
