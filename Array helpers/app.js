@@ -55,7 +55,3 @@ console.log(arr.average());
 console.log(arr.sum());
 console.log(arr.even());
 console.log(arr.odd());
-
-
-
-
