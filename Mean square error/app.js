@@ -23,7 +23,3 @@ const meanSquare = (array1, array2) => {
 };
 
 meanSquare([10, 20, 10, 30], [10, 25, 5, -20]);
-
-
-
-
