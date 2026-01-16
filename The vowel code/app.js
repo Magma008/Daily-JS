@@ -33,7 +33,3 @@ const decode = (word) => {
 
 encode("Suprise, my friend!");
 decode("S5pr3s2, my fr32nd!");
-
-
-
-
