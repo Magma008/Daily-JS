@@ -37,8 +37,3 @@ const sorter = (array) => {
 };
 
 sorter([1, 2, 4, 6, 10]);
-
-
-
-
-
