@@ -12,8 +12,4 @@ const evenSorter = (array, number) => {
     return array.filter((num) => num % 2 == 0).slice(-number)
 };
 
-
-
-
-
-
+evenSorter([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 4);
