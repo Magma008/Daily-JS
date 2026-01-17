@@ -13,7 +13,3 @@ const ageDiffer = (ages) => {
 };
 
 ageDiffer([12, 5, 8, 88, 34, 29]);
-
-
-
-
