@@ -24,8 +24,3 @@ const partList = (arrays) => {
 };
 
 partList(["Oh", "Oh", "wish", "I", "wish", "I", "knew", "knew"]);
-
-
-
-
-
