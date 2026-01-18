@@ -30,8 +30,3 @@ const langFilter = (object) => {
 };
 
 langFilter({ "HTML": 80, "CSS": 75, "JS": 66, "Python": 22 });
-
-
-
-
-
