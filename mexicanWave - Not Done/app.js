@@ -28,7 +28,7 @@
 //     arr.push(word)
 //     arr.push(wordArr[i] = wordArr[i].toUpperCase());
 //     console.log(`${word.slice(0, i - 1).toUpperCase()} ${word[i].toUpperCase()}`);
-    
+
 
 // let arr = [[1, 2, 3, 4, 5, 6],
 // [20, 21, 22, 23, 24, 7],
