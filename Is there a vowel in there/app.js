@@ -17,10 +17,3 @@ const vowelTurner = (array) => {
 };
 
 vowelTurner([100, 100, 116, 105, 117, 121]);
-
-
-
-
-
-
-
