@@ -50,4 +50,3 @@
 // console.log(arr[arr.length - 1].reverse());
 
 // console.log(arr[1].slice(1, arr[1].length - 1));
-
