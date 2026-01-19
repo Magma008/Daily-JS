@@ -21,10 +21,3 @@ const minimizer = (array) => {
 };
 
 minimizer([9, 2, 8, 7, 5, 4, 0, 6]);
-
-
-
-
-
-
-
