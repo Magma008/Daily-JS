@@ -23,7 +23,3 @@ const game = (list, number) => {
 };
 
 game([{ name: "a" }, { name: "b" }, { name: "c" }], 5);
-
-
-
-
