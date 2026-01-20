@@ -15,8 +15,3 @@ const strToArr = (nums) => {
 };
 
 strToArr(["1", "2.2", "3"]);
-
-
-
-
-
