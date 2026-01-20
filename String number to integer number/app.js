@@ -1,0 +1,22 @@
+// : it('Running toNumberArray("1.1","2.2","3.3")...', function () {
+// :     assert.sameOrderedMembers(toNumberArray(["1.1", "2.2", "3.3"]), [1.1, 2.2, 3.3]);
+// : });
+
+
+// + Some really funny web dev gave you a sequence of numbers from his API response as an sequence of strings!
+// + You need to cast the whole array to the correct type.
+// + Create the function that takes as a parameter a sequence of numbers represented as strings and outputs a sequence of numbers.
+// + Note that you can receive floats as well.
+
+// @  ["1", "2", "3"] => [1, 2, 3]
+
+const strToArr = (nums) => {
+    return nums.map((num) => Number(num));
+};
+
+strToArr(["1", "2.2", "3"]);
+
+
+
+
+
