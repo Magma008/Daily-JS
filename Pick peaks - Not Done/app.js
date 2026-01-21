@@ -66,29 +66,16 @@ let array = [[2, 1, 1],
 // console.log(arr[0][2] == arr[1][2] && arr[1][2] == arr[2][2])
 
 
+let list1 = [
+  { firstName: 'Noah', lastName: 'M.', country: 'Switzerland', continent: 'Europe', age: 19, language: 'JavaScript' },
+  { firstName: 'Maia', lastName: 'S.', country: 'Tahiti', continent: 'Oceania', age: 28, language: 'JavaScript' },
+  { firstName: 'Shufen', lastName: 'L.', country: 'Taiwan', continent: 'Asia', age: 35, language: 'HTML' },
+  { firstName: 'Sumayah', lastName: 'M.', country: 'Tajikistan', continent: 'Asia', age: 30, language: 'CSS' }
+];
 
+let b = list1.filter((item) => {
+    return item.continent == "Europe" && item.language == "JavaScript"
+})
 
+console.log(b);
 
-// const tictoe = (arr) => {
-//     let returned = 0;
-//     arr.forEach((item, index) => {
-//         if (item.includes(0)) {
-//             returned = -1
-//         } else {
-//             (item[0] == item[1] && item[1] == item[2]) ? returned = item[1] : 0
-//         }
-
-        
-
-//     })
-//     arr[0][0] == arr[1][0] && arr[1][0] == arr[2][0] ? returned = arr[1][0] : 0
-//     arr[0][1] == arr[1][1] && arr[1][1] == arr[2][1] ? returned = arr[1][1] : 0
-//     arr[0][2] == arr[1][2] && arr[1][2] == arr[2][2] ? returned = arr[1][2] : 0
-//     arr[0][2] == arr[1][1] && arr[1][1] == arr[2][0] ? returned = arr[1][1] : 0
-//     arr[0][0] == arr[1][1] && arr[1][1] == arr[2][2] ? returned = arr[1][1] : 0
-
-//     console.log(returned);
-    
-// }
-
-// tictoe(array)
