@@ -26,10 +26,3 @@ const maxTriplet = (array) => {
 };
 
 maxTriplet([-7, 12, -7, 29, -5, 0, -7, 0, 0, 29]);
-
-
-
-
-
-
-
