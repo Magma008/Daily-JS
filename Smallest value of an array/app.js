@@ -17,12 +17,3 @@ const smallest = (array, which) => {
 };
 
 smallest([750, 50000, 10, 50], "index");
-
-
-
-
-
-
-
-
-
