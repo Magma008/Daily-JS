@@ -10,8 +10,3 @@ const arraySorter = (array) => {
 };
 
 arraySorter(['one', 'two', 'three']);
-
-
-
-
-
