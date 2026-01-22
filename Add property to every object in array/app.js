@@ -43,6 +43,3 @@ assigner([{
     choices: ["Philadelphia", "At the bottom", "Frankie's Pub", "China"],
     corAnswer: 0
 }]);
-
-
-
