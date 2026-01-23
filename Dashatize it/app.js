@@ -12,13 +12,4 @@
 // ^ 274 -> '2-7-4'
 // ^ 6815 -> '68-1-5'
 
-let num = 974302;
-let spilled = String(974302).split("");
-
-console.log(spilled);
-
-let ns = spilled.map((item, index) => {
-    return item = item % 2 != 0 && spilled[index] ? `${item}-` : item
-})
-
-console.log(ns.join(""));
+// + Not done yet....
