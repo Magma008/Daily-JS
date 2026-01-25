@@ -21,8 +21,3 @@ Object.defineProperty(Array.prototype, 'numberOfOccurrences',{
 
 let array = [0, 1, 2, 2, 3, 6, 10];
 array.numberOfOccurrences(2);
-
-
-
-
-
