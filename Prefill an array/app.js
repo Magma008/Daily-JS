@@ -39,11 +39,3 @@ const prefill = (times, value) => {
 
 prefill(4, true);
 prefill("2", prefill(2, 4));
-
-
-
-
-
-
-
-
