@@ -50,3 +50,22 @@
 // console.log(arr[arr.length - 1].reverse());
 
 // console.log(arr[1].slice(1, arr[1].length - 1));
+
+// let arr = [0, 7, 8, 0, 1, 4, 7];
+
+// let b =((Number(arr.join("")) + 1));
+// let result;
+
+
+// arr.map((it) => {
+//     if ((it < 10 && it == Math.abs(it)) && arr.length) {
+//         result = (b.toString().split("").map((item) => (item = Number(item))));
+//     } else {
+//         result = (null);
+//     }
+// })
+
+// arr[0] == 0 ? result.unshift(0) : result
+// arr[1] == 0 ? result.unshift(0) : result
+
+// console.log(result);
