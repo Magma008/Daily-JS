@@ -16,10 +16,3 @@ const largest = (number, array) => {
 };
 
 largest(2, [-102, -16, -1, -2, -367, -9, 3, 4, 1, 9]);
-
-
-
-
-
-
-
