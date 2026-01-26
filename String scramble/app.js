@@ -13,5 +13,4 @@ arr.map((item, index) => {
     
     
 })
-
-// console.log(nw);
+//  Not done
