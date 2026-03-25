@@ -13,6 +13,3 @@ const mulitply = (a, b) => {
 };
 
 mulitply(2, 4);
-
-
-
