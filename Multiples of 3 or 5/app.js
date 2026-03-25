@@ -25,11 +25,3 @@ const reducer = (number) => {
 };
 
 reducer(22);
-
-
-
-
-
-
-
-
